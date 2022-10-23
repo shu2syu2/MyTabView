@@ -1,20 +1,20 @@
 //
-//  PageGraphView.swift
+//  SwiftUIView.swift
 //  MyTabView
 //
-//  Created by S.S on 2022/10/15.
+//  Created by Shunji Sakaue on 2022/10/19.
 //
 
 import SwiftUI
 
-struct PageGraphView: View {
+struct SwiftUIView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct PageGraphView_Previews: PreviewProvider {
+struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        PageGraphView()
+        SwiftUIView()
     }
 }

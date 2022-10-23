@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A251EDF2904D55D003A37CE /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A251EDE2904D55D003A37CE /* SimpleView.swift */; };
 		3A8045E228FAE21600A1B868 /* MyTabViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8045E128FAE21600A1B868 /* MyTabViewApp.swift */; };
 		3A8045E428FAE21600A1B868 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8045E328FAE21600A1B868 /* ContentView.swift */; };
 		3A8045E628FAE21800A1B868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8045E528FAE21800A1B868 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A251EDE2904D55D003A37CE /* SimpleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		3A8045DE28FAE21600A1B868 /* MyTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8045E128FAE21600A1B868 /* MyTabViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabViewApp.swift; sourceTree = "<group>"; };
 		3A8045E328FAE21600A1B868 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				3A8045E128FAE21600A1B868 /* MyTabViewApp.swift */,
 				3A8045E328FAE21600A1B868 /* ContentView.swift */,
+				3A251EDE2904D55D003A37CE /* SimpleView.swift */,
 				3A8045F328FAE5C100A1B868 /* PageSettingView.swift */,
 				3A8045F128FAE5A800A1B868 /* PageGraphView.swift */,
 				3A8045EF28FAE58500A1B868 /* PageListView.swift */,
@@ -150,6 +153,7 @@
 				3A8045F028FAE58500A1B868 /* PageListView.swift in Sources */,
 				3A8045F428FAE5C100A1B868 /* PageSettingView.swift in Sources */,
 				3A8045E428FAE21600A1B868 /* ContentView.swift in Sources */,
+				3A251EDF2904D55D003A37CE /* SimpleView.swift in Sources */,
 				3A8045E228FAE21600A1B868 /* MyTabViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,8 @@
 				DEVELOPMENT_TEAM = G2FY8397FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +317,8 @@
 				DEVELOPMENT_TEAM = G2FY8397FW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

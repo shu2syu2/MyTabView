@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  MyTabView
 //
-//  Created by Shunji Sakaue on 2022/10/15.
+//  Created by S.S on 2022/10/15.
 //
 
 import SwiftUI

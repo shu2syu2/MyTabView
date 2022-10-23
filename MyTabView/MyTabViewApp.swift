@@ -2,7 +2,7 @@
 //  MyTabViewApp.swift
 //  MyTabView
 //
-//  Created by Shunji Sakaue on 2022/10/15.
+//  Created by S.S on 2022/10/15.
 //
 
 import SwiftUI
@@ -11,7 +11,8 @@ import SwiftUI
 struct MyTabViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            SimpleView()
         }
     }
 }
